@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distill-myself-wechat-history-extrate"
+version = "0.1.0"
+description = "Sanitized local workflow for WeChat export scanning, redaction, and contact tiering."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "HIT_Jimmy" }
+]
+dependencies = []
+
+[project.scripts]
+wechat-release = "wechat_history_extrate.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

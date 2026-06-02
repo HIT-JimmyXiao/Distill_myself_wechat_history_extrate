@@ -1,0 +1,30 @@
+{
+  "scanned_at": "2026-06-02T12:00:00+08:00",
+  "export_root": "C:/demo/export_root",
+  "private_contact_count": 2,
+  "group_count": 1,
+  "records": [
+    {
+      "bucket": "private",
+      "source_name": "peer_alpha",
+      "relative_path": "contacts/peer_alpha.json",
+      "file_size_bytes": 48123,
+      "message_count": 730
+    },
+    {
+      "bucket": "private",
+      "source_name": "mentor_beta",
+      "relative_path": "contacts/mentor_beta.json",
+      "file_size_bytes": 21452,
+      "message_count": 240
+    },
+    {
+      "bucket": "group_reference",
+      "source_name": "research_group",
+      "relative_path": "groups/research_group.json",
+      "file_size_bytes": 65320,
+      "message_count": 120
+    }
+  ]
+}
+
