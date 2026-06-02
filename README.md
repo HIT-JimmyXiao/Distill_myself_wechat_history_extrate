@@ -4,6 +4,10 @@
 
 [English README](README_EN.md)
 
+![Privacy-preserving WeChat distillation workflow](assets/privacy-workflow.png)
+
+> 流程图为公开版示意图。所有模块、文字和图标均为抽象表达，不包含真实聊天记录或联系人信息。
+
 ## Overview
 
 这个仓库不是“把真实聊天记录直接丢上 GitHub”。
@@ -34,6 +38,8 @@
 
 ```text
 Distill_myself_wechat_history_extrate/
+├── assets/
+│   └── privacy-workflow.png    # 公开版流程示意图
 ├── docs/
 │   ├── data_schema.md          # 公开版数据契约
 │   ├── pipeline_handoff.md     # 与下游仓库的衔接方式

@@ -4,6 +4,10 @@ A sanitized local workflow for post-export WeChat archive scanning, redaction, c
 
 [中文 README](README.md)
 
+![Privacy-preserving WeChat distillation workflow](assets/privacy-workflow.png)
+
+> This is a public-release illustration. It contains abstract modules only, with no real chat records or contact information.
+
 ## Overview
 
 This repository does not publish real chat histories.
@@ -34,6 +38,7 @@ The public release intentionally excludes:
 
 ```text
 Distill_myself_wechat_history_extrate/
+├── assets/
 ├── docs/
 ├── sample_data/
 ├── src/wechat_history_extrate/
@@ -84,4 +89,3 @@ This repository stops at sanitized structured outputs.
 To continue toward RAG bundle generation, Codex skill drafting, and automation interfaces, use:
 
 - [Distill_myself_RAG-Skill](https://github.com/HIT-JimmyXiao/Distill_myself_RAG-Skill)
-
